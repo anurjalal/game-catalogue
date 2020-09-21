@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Game Catalogue</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="error_message">Error Load Data</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_favorite">Favorite</string>
+    <string name="released_date">Released:</string>
+    <string name="score">Rating:</string>
+    <string name="title_movie">Name</string>
+    <string name="title_activity_detail_game">"Detail Game Activity "</string>
+</resources>

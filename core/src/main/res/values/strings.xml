@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="img_game_description">This is game poster</string>
+    <string name="game_name">Game Name:</string>
+    <string name="game_score">Rating:</string>
+</resources>
