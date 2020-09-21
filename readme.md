@@ -1,1 +1,1 @@
-This is android application with Clean Architecture created by Ahmad Nurjalal for Dicoding course Submission, a Google Authorized Training Partner in Indonesia
+This is android application with Clean Architecture created by Ahmad Nurjalal for Dicoding course Menjadi Android Developer Expert submission. Dicoding is a Google Authorized Training Partner in Indonesia
