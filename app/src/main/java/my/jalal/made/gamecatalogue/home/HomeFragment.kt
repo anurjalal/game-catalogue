@@ -7,14 +7,16 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
+import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
-import my.jalal.made.gamecatalogue.detail.DetailGameActivity
 import kotlinx.android.synthetic.main.fragment_home.*
 import kotlinx.android.synthetic.main.view_error.*
 import my.jalal.made.core.data.Resource
 import my.jalal.made.core.ui.GameAdapter
 import my.jalal.made.gamecatalogue.R
+import my.jalal.made.gamecatalogue.detail.DetailGameActivity
 import org.koin.android.viewmodel.ext.android.viewModel
+
 
 class HomeFragment : Fragment() {
 
@@ -58,6 +60,12 @@ class HomeFragment : Fragment() {
 
             with(rv_game) {
                 layoutManager = LinearLayoutManager(context)
+                this.addItemDecoration(
+                    DividerItemDecoration(
+                        context,
+                        DividerItemDecoration.VERTICAL
+                    )
+                )
                 setHasFixedSize(true)
                 adapter = gameAdapter
             }
